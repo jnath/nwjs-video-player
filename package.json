@@ -1,0 +1,22 @@
+{
+  "name": "webkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "chromium-args" : "--disable-accelerated-video --disable-accelerated-video-decode",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-node-webkit-builder": "latest"
+  },
+  "window": {
+    "title": "WebKit",
+    "position": "center",
+    "width": 1000,
+    "height": 600
+  },
+  "author": "",
+  "license": "ISC"
+}
