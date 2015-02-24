@@ -1,22 +1,35 @@
 {
-  "name": "webkit",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "name": "webkit-test",
+  "version": "0.0.0",
+  "description": "blabal",
+  "node-remote": "app://host/src/app/index.html",
+  "main": "app://host/src/app/index.html",
+  "repository": "git",
+  "readme": "read",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "chromium-args" : "--disable-accelerated-video --disable-accelerated-video-decode",
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-node-webkit-builder": "latest"
-  },
   "window": {
-    "title": "WebKit",
-    "position": "center",
-    "width": 1000,
-    "height": 600
+    "title": "webkit-test",
+    "icon": "src/app/images/icon.png",
+    "toolbar": false
+  },
+  "webkit": {
+    "plugin": true
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-bower-clean": "^0.2.2",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-node-webkit-builder": "^1.0.0",
+    "load-grunt-tasks": "^2.0.0"
+  },
+  "dependencies": {
+    "chromecast-js": "^0.1.5"
+  }
 }

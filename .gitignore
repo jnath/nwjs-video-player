@@ -1,6 +1,9 @@
 # Logs
 logs
 *.log
+src/app/lib
+build
+cache
 
 # Runtime data
 pids
