@@ -26,9 +26,9 @@ define(['./module', 'video-js', 'video-js-chromecast-nw'], function (directives,
         attrs.class = 'video-js vjs-default-skin';
         element.attr('id', attrs.id);
         element.attr('class', attrs.class);
-        element.attr('poster', 'http://video-js.zencoder.com/oceans-clip.png');
+        element.attr('poster', 'http://camendesign.com/code/video_for_everybody/poster.jpg');
         var player = vjs(attrs.id, setup, function(){
-          this.src('http://video-js.zencoder.com/oceans-clip.mp4');
+          this.src('http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4');
         });
       };
       return {
