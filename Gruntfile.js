@@ -41,8 +41,8 @@ module.exports = function (grunt) {
 	    options: {
 	    	// version: '0.11.6',
 	    	// chromeVersion: '38',
-	    	version: '0.12.0-alpha3',
-	    	chromeVersion: '41',
+	    	version: '0.12.0',
+	    	chromeVersion: '41.0.2272.76',
 	      buildDir: './build', // Where the build version of my node-webkit app is saved
 	      macZip: buildPlatforms.win, // Zip nw for mac in windows. Prevent path too long if build all is used.
 				// mac: buildPlatforms.mac,
